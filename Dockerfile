@@ -12,10 +12,12 @@ COPY package.json .
 
 RUN npm install 
 RUN npm install yt-search 
+RUN npm install && npm install qrcode-terminal
 
 COPY . .
 
 EXPOSE 5000
 
 CMD ["node", "index.js"]
+
 
