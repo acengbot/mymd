@@ -19,7 +19,7 @@ global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Change owner n
 global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit 
 
-global.repox = 'raselcomel/mymd'
+global.repox = 'acengbot/mymd'
 global.branx = 'master'
 
 global.APIs = { // API Prefix
@@ -35,7 +35,7 @@ global.APIKeys = { // APIKey Here
 //======= 'https://website': 'apikey' =======//
   'https://api.lolhuman.xyz': '7ecba1cc37eca2e93d6a983b',
   'https://hardianto.xyx': 'hardianto',
-  'https://api.neoxr.eu.org': 'yourkey',
+  'https://api.neoxr.eu.org': 'yntkts',
   'https://api.xteam.xyz': 'benniismaelapikey',
   'https://api.zeks.me': 'apivinz'
 }
@@ -68,7 +68,7 @@ const cpack = fs.readFileSync("lib/colong.json")
 const ctickerpack = JSON.parse(cpack)
 if (ctickerpack.cpackname == '') {
   var colong_name = 'sikilinsut olang nylong stikell'
-  var colong_author = 'Ciss 📸\n\n@rasel.ganz'
+  var colong_author = 'Ciss 📸\n\n@yusril_rnld'
  } else {
   var colong_name = ctickerpack.cpackname
   var colong_author = ctickerpack.cauthor
@@ -85,7 +85,7 @@ global.pclg = colong_name
 global.aclg = colong_author
 //======================================//
 
-global.wm = '@rasel.ganz'
+global.wm = '@yusril_rnld'
 global.ucpn = ''
 
 //================= Url =================//
@@ -98,7 +98,7 @@ global.web1 = 'https://anu.rasell.repl.co'
 
 global.deslink = ''
 global.titlink = 'Folllow me on Instagram'
-global.bodlink = '@rasel.ganz'
+global.bodlink = '@yusril_rnld'
 
 //========= Url Template Button =========//
 global.dtu = 'Group Bot WhatsApp'
@@ -106,7 +106,7 @@ global.urlnya = 'https://chat.whatsapp.com/CUCsW6BWfmJLJwJgPQIaKM'
 
 //========= Call Template Button =========//
 global.dtc = 'Add Me'
-global.nmbrnya = '+62 822-5604-8971'
+global.nmbrnya = '+6282252875751'
 
 
 //============ Proses Bot ============//
